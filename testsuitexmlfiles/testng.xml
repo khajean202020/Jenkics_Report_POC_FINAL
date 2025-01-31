@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test1234 Suite">
+    <listeners>
+        <listener class-name="ExtentReporter" />
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="Test1234677">
+        <parameter name="os" value="windows"/>
+        <parameter name="browser" value="chrome"/>
+        <classes >
+            <class name="Test1234"></class>
+        </classes>
+
+
+    </test>
+</suite>
