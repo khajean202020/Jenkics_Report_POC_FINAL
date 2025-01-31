@@ -78,8 +78,7 @@ post {
 
             publishHTML (target: [
             allowMissing: true,
-             alwaysLinkToLastBuild: false,
-              keepAll: true,
+             alwaysLinkToLastBuild: true,
                   keepAll: false,
                   reportDir: 'reports',
                   reportFiles: 'Extent-Report-*.html',
